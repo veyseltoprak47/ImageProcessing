@@ -17,6 +17,7 @@ while True:
     #capture the video frame by frame
     ret, frame = cap.read()
 
+    #if the frame is not available, break the loop
     if frame is None:
         print("Not available")
         break
